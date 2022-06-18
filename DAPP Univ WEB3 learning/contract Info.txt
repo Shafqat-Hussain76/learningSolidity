@@ -1,0 +1,44 @@
+Assigment 3 
+ERC20
+
+ropsten TRXHASH
+
+
+
+
+
+ Deploying 'ERC20'
+   -----------------
+   > transaction hash:    0xb515bf2a166b06ae4ba606253dc4fdaf2aa5b41c38c894afec20d50707a6f058
+   > Blocks: 3            Seconds: 18
+   > contract address:    0x49EfD124C83DecB845D04b97631003c63a49568b
+   > block number:        11104972
+   > block timestamp:     1632586688
+   > account:             0x29B574ddAD30F1b5EB8907f2BC04bBf61761c1a2
+   > balance:             4.441548428702314199
+   > gas used:            1153796 (0x119b04)
+   > gas price:           1.000000021 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001153796024229716 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 11104974)
+   > confirmation number: 2 (block: 11104975)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001153796024229716 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.001399396029632916 ETH
+
+
+
+G:\PIAIC\Quater 03\BCC\LearningTruffle\New folder>
+
+[{"inputs":[{"internalType":"uint256","name":"_initialSupply","type":"uint256"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"Transfer","type":"event"},{"stateMutability":"payable","type":"fallback"},{"inputs":[{"internalType":"uint256","name":"newPrice","type":"uint256"}],"name":"adjustTokenPrice","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"recepint","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"purchaseTokens","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"recepint","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"stateMutability":"payable","type":"receive"}]
